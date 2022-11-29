@@ -1,0 +1,110 @@
+.furniture {
+    margin-top: 122px;
+}
+
+.furniture__header {
+    max-width: 800px;
+}
+.furniture__header-title {
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.furniture__main {
+    margin-top: 57px;
+    display: flex;
+    column-gap: 65px;
+    justify-content: space-between;
+}
+.furniture__nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.furniture__nav a:hover{
+    color: #B71C1C;
+}
+
+.accordion__item {
+}
+.accordion__title {
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+    width: 100%;
+    transition: 0.4s;
+}
+.accordion__title.active {
+    color: #B71C1C;
+}
+.accordion__title h4:hover,
+.accordion__title h4:active{
+    color: #B71C1C;
+}
+.accordion__content {
+
+    display: none;
+    overflow: hidden;
+}
+.accordion__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 5px;
+margin-left: 15px;
+}
+.accordion__list a:hover,
+.accordion__list a.active {
+    color: #B71C1C;
+    padding-left: 20px;
+}
+
+.accordion__list a {
+    position: relative;
+}
+
+.accordion__list a:hover::before,
+.accordion__list a.active::before {
+    color: #B71C1C;
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 11px;
+    width: 14px;
+    height: 1px;
+    background: #B71C1C;
+}
+
+
+.furniture__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 273px);
+    row-gap: 40px;
+    column-gap: 28px;
+}
+.furniture__card {
+    transition: transform .2s; 
+}
+.furniture__card:hover {
+/* zoom: 1.1; */
+transform: scale(1.1);
+}
+.card__img {
+    margin-bottom: 13px;
+    width: 260px;
+    height: 200px;
+}
+.card__img:hover + .card__text {
+    color: #B71C1C;
+}
+.card__text {
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #333333;
+}

@@ -1,0 +1,119 @@
+.our__designers {
+}
+.ou__designers-title {
+    margin-bottom: 47px;
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 120%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.our__designers-card {
+    display: flex;
+    column-gap: 40px;
+}
+.our__designers-img {
+}
+.our__designers-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.our__designers-name {
+    margin-bottom: 9px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #333333;
+}
+.our__designers-text {
+    margin-bottom: 53px;
+    max-width: 425px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+.our__designers-btn {
+    display: flex;
+align-items: center;
+text-align: center;
+}
+.our__designers-btn a {
+    width: 360px;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 20px 0;
+background: #B71C1C;
+border: 1px solid #B71C1C;
+}
+.our__designers-btn a:hover {
+    background: #FFFFFF;
+    color: #B71C1C;
+}
+
+.corder__cards-wrapper--designers {
+    margin-top: 70px;
+
+}
+.corner__cards--designers {
+    grid-template-columns: repeat(4, 260px) !important;
+}
+.our__designers--card {
+/* display: flex !important;
+flex-direction: column;
+row-gap: 15px; */
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: #333333;
+}
+.our__designers--card p {
+    margin-top: 15px;
+}
+.ourDesigners {
+    display: none;
+}
+#loadMoreDis {
+    margin: 70px auto 7px; 
+    display: flex;
+justify-content: center;
+
+width: 195px;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF !important;
+background: #B71C1C;
+padding: 20px 0;
+border: 1px solid #B71C1C;
+}
+
+#loadMoreDis:hover {
+    background: #FFFFFF;
+    color: #B71C1C !important;  
+}
+.noContentDis {
+    display: none !important;
+}
+
+.our__designers-marina {
+    margin-top: 140px;
+}
+.our__designers-daria {
+    margin-top: 134px;
+}
+.our__designers-natalia {
+    margin-top: 134px;
+}

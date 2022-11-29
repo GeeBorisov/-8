@@ -1,0 +1,84 @@
+.reviews {
+    margin-top: 128px;
+}
+.reviews__header {
+    margin-bottom: 71px;
+    max-width: 705px;
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.reviews__row {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    column-gap: 100px;
+    row-gap: 70px;
+}
+.reviews__video {
+}
+.reviews__comment {
+    margin-top: 50px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 59px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333333;
+}
+.quote {
+max-width: 360px;
+margin: 0 auto;
+
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #333333;
+}
+
+
+.reviews__rating {
+    margin-top: 70px;
+}
+.rating__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.rating__card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333333;
+}
+.rating__card-img {
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+.rating__card-rating {
+    display: flex;
+    column-gap: 7px;
+    margin-bottom: 13px;
+}
+.rating__card-link {
+        margin-bottom: 20px;
+        cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+}
+.rating__card-link a {
+ text-decoration: underline;
+font-size: 14px;
+line-height: 130%;
+color: #333333;
+}
+.rating__card-link a:hover {
+    color: #B71C1C;
+}

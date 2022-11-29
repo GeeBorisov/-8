@@ -1,0 +1,37 @@
+.corner__kitchens {
+    margin-top: 118px;
+}
+
+.corner__kitchens-title {
+max-width: 800px;
+margin-bottom: 57px;
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.corner__kitchens-content {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.corner__kitchens-text {
+    max-width: 460px;
+}
+.corner__kitchens-text h4 {
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #333333;    
+}
+.corner__kitchens-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;    
+}

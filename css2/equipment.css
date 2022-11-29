@@ -1,0 +1,56 @@
+.equipment {
+    margin-top: 128px;
+}
+
+.equipment__title {
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.equipment__row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.equipment__content {
+    max-width: 480px;
+}
+.equipment__text {
+    margin-bottom: 15px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+
+.equipment__btn {
+    width: 244px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+background: #B71C1C;
+padding: 20px 0;
+color: #FFFFFF !important;
+border: 1px solid #B71C1C;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.equipment__btn:hover {
+    background: #FFFFFF;
+    color: #B71C1C !important;
+}
+
+.equipment__img {
+}
+.equipment__img img {
+    max-width: 560px;
+}

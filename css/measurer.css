@@ -1,0 +1,55 @@
+.measurer {
+    margin-top: 117px;
+}
+
+.measurer__row {
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-between;
+}
+.measurer__content {
+}
+.measurer__title {
+    max-width: 569px;
+    margin-bottom: 45px;
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.measurer__text {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 58px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+.measurer__text p {
+    max-width: 260px;
+}
+.measurer__btn {
+padding: 20px 32px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF !important;
+border: 1px solid #FFFFFF;
+background: #B71C1C;
+}
+.measurer__btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #B71C1C;
+    color: #B71C1C !important;
+}
+.measurer__img {
+}

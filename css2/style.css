@@ -1,0 +1,213 @@
+.style__classic {
+    margin-top: 118px;
+}
+.style__provence {
+    margin-top: 58px;
+}
+.style__loft {
+    margin-top: 58px;
+}
+.style__ethno {
+    margin-top: 58px;
+}
+.style__row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 49px;
+}
+.style__title {
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.style__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.style__card {
+    max-width: 260px;
+}
+.style__card-slider {
+}
+.slick-dots {
+    bottom: 0px !important;
+    list-style: none !important;
+    text-align: unset !important;
+    display: flex !important;
+    margin-bottom: 5px !important;
+}
+.slick-dots li {
+    width: 56px !important;
+    height: 3px !important;
+    background: #fff !important;
+    border-radius: 21px !important;
+}
+.slick-dots li button {
+    width: 56px !important;
+    height: 3px !important;
+    opacity: 0;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 17px !important;
+}
+.style__price {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 16px;
+line-height: 130%;
+color: #333333;
+}
+
+.style__btn {
+    width: 260px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+background: #B71C1C;
+padding: 12px 0 10px;
+color: #FFFFFF !important;
+border: 1px solid #B71C1C;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.style__btn:hover {
+    background: #FFFFFF;
+    color: #B71C1C !important;
+}
+
+
+
+
+/* STYLE POPUP */
+.style__card-popUP {
+    max-width: 1160px;
+    background: #fff;
+    margin: 0 auto;
+    
+}
+.container__card-popUp {
+    display: flex;
+    justify-content: center;
+}
+.card__popUp-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    column-gap: 59px;
+}
+.card__popUP-slider {
+    position: relative;
+    width: 602px;
+    height: 415px;
+}
+.card__popUP-slider img {
+}
+.owl-carousel {
+}
+.owl-theme {
+}
+.slide-three {
+}
+.slide-three  img {
+    width: 602px;
+    height: 415px;
+}
+.slider__btn {
+
+}
+.slider__btn--prev3 {
+    left: 0px;
+    padding-left: 26px;
+    justify-content: flex-start;
+}
+.slider__btn--next3 {
+    right: 0px;
+padding-right: 26px;
+justify-content: flex-end;
+}
+.card__popUp-conten {
+    max-width: 338px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+}
+.card__popUP-title {
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #000000;
+}
+.card__popUP-price {
+}
+.price__badge {
+    margin-bottom: 10px;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #333333;
+}
+.price__cost {
+    margin-bottom: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+.popUp__price-btn {
+    width: 280px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+background: #B71C1C;
+padding: 20px 0;
+color: #FFFFFF !important;
+border: 1px solid #B71C1C;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.popUp__price-btn:hover {
+    color: #B71C1C !important;
+    background: #FFFFFF;
+}
+.card__popUp-lists {
+    display: flex;
+    column-gap: 60px;
+}
+.card__popUp-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #333333;
+}
+.list-inderline {
+    position: relative;
+}
+.list-inderline::before {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    width: 139px;
+    height: 1px;
+    background: #B71C1C;
+
+}

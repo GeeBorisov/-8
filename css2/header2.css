@@ -1,0 +1,36 @@
+.header__pages {
+    margin-bottom: 18px;
+
+}
+.pages {
+    margin-top: 47px;
+    display: flex;
+    column-gap: 4px;
+    /* max-width: 220px; */
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #333333;
+}
+.pages a.active {
+    opacity: .5;
+}
+.pages a:hover{
+    opacity: .5;
+}
+
+.header__botom {
+    margin-bottom: 130px;
+
+}
+.header__botom-title {
+    margin-bottom: -19px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #333333;
+}

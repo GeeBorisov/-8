@@ -1,0 +1,129 @@
+.consultation {
+    margin-top: 128px;
+}
+
+.consultation__row {
+    display: flex;
+    column-gap: 57px;
+}
+.consultation__content {
+}
+.consultation__title {
+    max-width: 543px;
+    margin-bottom: 57px;
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.consultation__text {
+    max-width: 494px;
+    margin-bottom: 19px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+.consultation__contacts {
+    display: flex;
+    column-gap: 93px;
+}
+.consultation__contacts-numbers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.consultation__contacts-numbers a {
+font-weight: 400;
+font-size: 22px;
+line-height: 130%;
+color: #333333;
+}
+.consultation__contacts-numbers a:hover {
+    color: #B71C1C;
+}
+.consultation__contacts-socials {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.consultation__contacts-whats {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+.consultation__contacts-whats a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: underline;
+    color: #333333;    
+}
+.consultation__contacts-whats a:hover {
+    color: #B71C1C;
+}
+.consultation__contacts-telegram {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.consultation__contacts-telegram a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: underline;
+    color: #333333;  
+}
+.consultation__contacts-telegram a:hover {
+    color: #B71C1C;
+}
+.consultation__form {
+    width: 400px;
+}
+.consultation__form-wrapper {
+    padding-top: 51px;
+    background: #F8F3EF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.consultation__form-wrapper input {
+    background: #FFFFFF;
+    width: 330px;
+    padding: 16px 0 16px 25px;
+    margin: 0 auto;
+}
+.consultation__btn {
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0 auto;
+width: 280px;
+padding: 20px 0;
+background: #B71C1C;
+border: 1px solid #B71C1C;
+
+}
+.consultation__btn:hover {
+    background: #F8F3EF;
+    color: #B71C1C;
+}
+.consultation__form-wrapper p {
+    max-width: 280px;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+text-align: center;
+color: #888888;
+margin: 0 auto 20px;
+}
+.consultation__form-wrapper a {
+    text-decoration: underline;
+}

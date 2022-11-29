@@ -1,0 +1,114 @@
+.designers {
+    margin-top: 128px;
+}
+.designers__header {
+    margin-bottom: 60px;
+    max-width: 724px;
+font-family: 'Cormorant Garamond';
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #333333;
+}
+.designers__row {
+    display: flex;
+    column-gap: 40px;
+}
+.designers__slider {
+    width: 560px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.owl-carousel {
+}
+.owl-theme {
+}
+.slide-two {
+}
+.slider__btn {
+}
+.slider__btn--prev2 {
+    left: 0px;
+
+    padding-left: 26px;
+    justify-content: flex-start;
+}
+.slider__btn--next2 {
+    right: 0px;
+
+    padding-right: 26px;
+    justify-content: flex-end;
+}
+.designers__text {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #333333;
+}
+.designers__text-line {
+    position: relative;
+}
+.designers__text-line::before {
+position: absolute;
+content: "";
+top: 0;
+margin-top: -17px;
+width: 213px;
+height: 1px;
+background: #b71c1c;
+}
+.designers__text-line::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    margin-bottom: -8px;
+    width: 213px;
+    height: 1px;
+    background: #b71c1c;
+}
+.designers__cards {
+    display: flex;
+    column-gap: 40px;
+}
+.designers__card {
+    cursor: pointer;
+    max-width: 260px;
+    background: #F8F3EF;
+    padding: 35px 50px;
+    text-align: center;
+}
+.designers__card-img {
+    margin-bottom: 32px;
+}
+.designers__card-img img {
+    max-width: 160px;
+    min-width: 160px;
+    border-radius: 100%;
+}
+.designers__card-name {
+    margin-bottom: 25px;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #333333;
+}
+.designers__card-btn {
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+text-decoration-line: underline !important;
+color: #333333;
+}
+.designers__card:hover, .designers__card-btn {
+    color: #b71c1c;
+}

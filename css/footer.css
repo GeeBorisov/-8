@@ -1,0 +1,155 @@
+.footer {
+    margin-top: 140px;
+}
+.container__footer {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.footer__row {
+    display: flex;
+    margin-bottom: 52px;
+}
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: 740px;
+}
+.footer__title {
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer__info {
+    display: flex;
+    margin-top: 31px;
+
+    column-gap: 106px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.footer__info-adress {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.adress__img {
+}
+.adress__text {
+}
+.footer__badge {
+    margin-top: 36px;
+    margin-bottom: 28px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.footer__socials {
+    display: flex;
+    column-gap: 103px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-decoration: underline;
+color: #FFFFFF;
+}
+.footer__socials-vk a {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.footer__socials-vk a:hover {
+    color: #B71C1C;
+}
+.footer__socials-inst a {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.footer__socials-inst a:hover{
+    color: #B71C1C;
+}
+.footer__map {
+}
+
+
+.footer__row-main {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    border-bottom: 1px solid #333333;
+}
+.footer__logo {
+}
+.footer__nav {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 31px;
+
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #333333;
+}
+.nav-list ul{
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.nav-list h4 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;    
+}
+.nav-list a:hover {
+    color: #B71C1C;
+}
+
+.footer__law {
+    margin-top: 33px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__law-text {
+    max-width: 460px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+color: #333333;
+}
+.footer__law-list {
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+color: #333333;
+}
+.footer__law-copiright {
+    max-width: 193px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+color: #333333;
+}
